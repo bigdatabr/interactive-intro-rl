@@ -8,7 +8,7 @@ In this repository, we store the code presented for the first of Big Data's open
 
 ### The Multi-Armed Bandit problem
 
-We will present the Multi-Armed Bandit problem, the simplest setting of reinforcement learning, which is perfect for ilustrating the exploration/exploitation trade-off. Suppose that you face a row of slot machines (bandits) on a casino. Each one of the **K** machines has a fixed probability **theta_k** of providing a binary reward to you. You have to decide which machines to play, how many times to play each machine and in which order to play them, in order to maximize your cumulative reward. 
+We present the Multi-Armed Bandit problem, the simplest setting of reinforcement learning, which is perfect for ilustrating the exploration/exploitation trade-off. Suppose that you face a row of slot machines (bandits) on a casino. Each one of the **K** machines has a fixed probability **theta_k** of providing a binary reward to you. You have to decide which machines to play, how many times to play each machine and in which order to play them, in order to maximize your cumulative reward. 
 
 If after a few plays you bet everything on the best machine so far, you risk getting stuck with a suboptimal strategy, as you lack sufficient information to discard the others. If you explore too much, you risk wasting many of your plays gathering information instead of making profits. 
 
