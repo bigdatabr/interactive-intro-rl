@@ -22,7 +22,7 @@ We also present the Contextual Bandit problem, which is almost the same as the M
 
 **theta_k(x) = f(x)**
 
-To solve this problem, we implement two algorithms: (a) an e-greedy strategy using a regular logistic regression for modeling **theta_k(x)** and (b) Thompson Sampling with the Online Logistic Regression by Chapelle & Li on their 2011 paper "An Empirical Evaluation of Thompson Sampling". The Online Logistic Regression allows for uncertainty in its coefficients, such that we can have not only a point estimate for **theta_k(x)**, but a distribution. The fitting process of the algorithm is studied with [this animation](https://github.com/bigdatabr/interactive-intro-rl/blob/master/thompson_sampling_olr.mp4). We also show animations like the ones shown in the first section.
+To solve this problem, we implement two algorithms: (a) an e-greedy strategy using a regular logistic regression for modeling **theta_k(x)** and (b) Thompson Sampling with the Online Logistic Regression by Chapelle & Li on their 2011 [paper](https://papers.nips.cc/paper/4321-an-empirical-evaluation-of-thompson-sampling) "An Empirical Evaluation of Thompson Sampling". The Online Logistic Regression allows for uncertainty in its coefficients, such that we can have not only a point estimate for **theta_k(x)**, but a distribution. The fitting process of the algorithm is studied with [this animation](https://github.com/bigdatabr/interactive-intro-rl/blob/master/thompson_sampling_olr.mp4). We also show animations like the ones shown in the first section.
 
 ## Required libraries
 
